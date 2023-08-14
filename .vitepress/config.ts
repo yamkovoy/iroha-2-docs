@@ -63,6 +63,36 @@ function getGuideSidebar(): DefaultTheme.SidebarItem[] {
       ],
     },
     {
+      text: 'Security',
+      link: '/guide/security/security.md',
+      items: [
+        {
+          text: 'Security Principles',
+          link: '/guide/security/security-principles.md',
+        },
+        {
+          text: 'Operational Security',
+          link: '/guide/security/operational-security.md',
+        },
+        {
+          text: 'Public Key Cryptography',
+          link: '/guide/security/public-key-cryptography.md',
+          items: [
+            {
+              text: 'Generating Cryptographic Keys',
+              link: '/guide/security/generating-cryptographic-keys.md',
+            },
+            {
+              text: 'Storing Cryptographic Keys',
+              link: '/guide/security/storing-cryptographic-keys.md',
+              ],
+            },
+          ],
+        },
+      },
+    ],
+  },
+    {
       text: 'Tutorial',
       items: [
         {
@@ -220,8 +250,8 @@ function getGuideSidebar(): DefaultTheme.SidebarItem[] {
           link: '/guide/configure/keys',
         },
         {
-            text: 'Working with the Keys',
-            link: '/guide/configure/working-with-the-keys',
+            text: 'Working With Keys',
+            link: '/guide/configure/working-with-keys',
         },
         {
           text: 'Peer Management',
@@ -275,7 +305,7 @@ function getGuideSidebar(): DefaultTheme.SidebarItem[] {
         },
         {
             text: 'Security principles',
-            link: '/guide/configure/working-with-the-keys',
+            link: '/guide/advanced/security-principles',
         },
       ],
     },
@@ -366,7 +396,7 @@ export default defineConfig({
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        
+
         gtag('config', 'G-D6ETK9TN47');
     `,
     ],

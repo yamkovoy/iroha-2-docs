@@ -100,7 +100,7 @@ as run-time configuration updates.
 Persistence-related logic. It handles storing the blocks, log rotation,
 block storage folder rotation, etc.
 
-### Kagami(Teacher and Exemplar and/or looking glass)
+### Kagami (Teacher and Exemplar and/or looking glass) {#kagami}
 
 Generator for commonly used data. It can generate cryptographic key pairs,
 genesis blocks, documentation, etc.
