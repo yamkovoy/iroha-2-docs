@@ -115,6 +115,10 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
               link: '/guide/get-started/build',
             },
             {
+              text: 'Working with Iroha Binaries',
+              link: '/guide/get-started/binaries.md',
+            },
+            {
               text: 'Quick Start with Docker',
               link: '/guide/get-started/quick-start',
             },
